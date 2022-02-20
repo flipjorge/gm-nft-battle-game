@@ -48,7 +48,7 @@ contract GmNftBattleGame is ERC721URIStorage {
         string[] memory characterImageURIs,
         uint[] memory characterHp,
         uint[] memory characterAttackDmg
-    ) ERC721("Heroes", "HERO") {
+    ) ERC721("Good Manners Heroes", "GOODMANNERSHERO") {
         // Loop through all the characters, and save their values in our contract so
         // we can use them later when we mint our NFTs.
         for(uint i = 0; i < characterNames.length; i += 1) {
